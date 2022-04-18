@@ -1,0 +1,110 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+ 
+  background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+  height: 532px;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 532px;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+.foot--navbar {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 291px;
+  margin-right: 291px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+.foot--title {
+  padding-left: 48px;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 800;
+  opacity: .99;
+}
+
+.foot--list{
+  padding-right: 48px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  color: #fff;
+  opacity: 0.99;
+  font-weight: 800;
+}
+
+.site--heading > h1 {
+  color: rgb(255, 255, 255);
+  opacity: .99;
+  box-sizing: border-box;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  margin-bottom: 8px;
+}
+
+.site--subheading {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #fff;
+  opacity: .99;
+}
+
+.post--all {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 694px;
+  text-align: left;
+}
+
+.post--all > h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.2;
+} 
+.post--all > h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.2;
+} 
+
+.post--all > h3 {
+  margin-top: 0px;
+  font-size: 18px;
+  color: rgb(108, 117, 125);
+}
