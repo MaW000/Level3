@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+  padding-bottom: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #0c6277 1.18%, #015d6dfb 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  margin-bottom: 17px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #125f32 1.14%, #18da59 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#button2 {
+  width: 100%;
+  margin-top: 10px;
+  padding: 11px 0px 11px 0px
+}
+
+.meme {
+  position: relative;
+  align-content: center;
+  text-align: center;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+  max-height: 400px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+#edit {
+  display:none
+}
+
+#edit.active {
+  display: block;
+  width: 800px;
+  font-size: 20px;
+}
+
+.editInput {
+  padding: 0px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+#button3 {
+  width: 50%;
+  
+  margin: 10px;
+  padding: 11px 10px 11px 10px;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #1f268d 1.14%, #182bda 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#button3.del--button {
+  background: linear-gradient(90.41deg, #8d1f1f 1.14%, #f10606 100%);
+}
+
+.heading1 {
+  background: linear-gradient(90.41deg, #085a6e 1.14%, #0e8aa0fb 100%);
+  
+}
+
+.heading {
+  font-size: 50px;
+  
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
